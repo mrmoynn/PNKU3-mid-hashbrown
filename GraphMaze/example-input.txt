@@ -1,0 +1,36 @@
+# Sample undirected weighted graph for 11maze
+# Format: <vertex> <vertex> <weight>
+# vertices: A B C D E F
+# vertex_labels: E=a M=e P=r X=a W=i V=r Y=o U=o Q=s O=t
+
+A D 1 
+D C 13 bi
+C B 18 a
+B G 4 k
+C H 2 
+D E 11 m
+E I 2 
+E F 4
+F J 7
+B I 24
+G M 3
+M L 9 n
+L Q 12 h
+Q U 3
+Q N 18
+M N 17 ec
+N O 2
+I O 10
+O S 1
+R S 14 ni
+R U 1
+R V 1
+V X 8
+V W 11
+X W 7
+X Y 10
+W Y 17
+S P 12 t
+P T 1
+T Y 2 o
+F P 12 y
