@@ -50,6 +50,12 @@ Reads a graph file and outputs a copy with every edge weight **incremented by a 
 
 ---
 
+## #pnku3-temp — Unsorted Projects (Temporary)
+
+This directory is a **staging area** for new or unclassified projects that haven't yet been sorted into the appropriate category. Currently empty — projects will appear here as they are added.
+
+---
+
 ## Repository Layout
 
 ```
@@ -57,6 +63,7 @@ PNKU3-mid-hashbrown/
 ├── #Docs/                  ← AI agent & catalog metadata (this file)
 │   ├── AGENT.md
 │   └── catalog.md
+├── #pnku3-temp/            ← Temporary staging for unsorted projects
 ├── Logic Puzzle/
 │   └── 01Sudoku/           ← Possibility-matrix Sudoku solver
 └── Strategic Puzzle/
