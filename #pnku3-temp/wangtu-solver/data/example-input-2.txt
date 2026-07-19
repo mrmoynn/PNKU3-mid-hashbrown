@@ -1,0 +1,7 @@
+# Wangtu Example 2 — 3×3 grid with a 0-step king
+# King 0 at (0,0) needs 2 steps
+# King 1 at (2,2) needs 0 steps (stays in place)
+# Forbidden cell at (1,1) — the centre
+2 . .
+. # .
+. . 0
