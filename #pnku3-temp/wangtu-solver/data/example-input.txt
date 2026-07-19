@@ -1,0 +1,6 @@
+# Wangtu Example — 3×3 grid, two kings, centre forbidden
+# King 0 at (0,0) needs 2 steps
+# King 1 at (0,2) needs 2 steps
+2 . 2
+. # .
+. . .

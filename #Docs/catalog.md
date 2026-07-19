@@ -52,7 +52,23 @@ Reads a graph file and outputs a copy with every edge weight **incremented by a 
 
 ## #pnku3-temp — Unsorted Projects (Temporary)
 
-This directory is a **staging area** for new or unclassified projects that haven't yet been sorted into the appropriate category. Currently empty — projects will appear here as they are added.
+This directory is a **staging area** for new or unclassified projects that haven't yet been sorted into the appropriate category.
+
+### Wangtu — King-Move Logic Puzzle Solver
+**File:** [wangtu.py](../#pnku3-temp/wangtu-solver/wangtu.py)
+
+Given an n×m grid with forbidden cells and king pieces (each with a required step count), find **all** ways to move every king exactly that many steps such that paths are disjoint, no king steps on a forbidden cell, and no two kings check each other at their final positions (Chebyshev distance > 1).
+
+- **Input:** Space-separated grid; `#` or `-1` for forbidden, `0` or `.` for empty, positive integer for a king with that many steps.
+- **Output:** Full mode shows coordinate paths + step-by-step ASCII grid visualisation; `--compact` outputs coordinates only.
+- **Algorithm:** DFS path enumeration, backtracking with MRV ordering, incremental overlap pruning.
+- **Options:** `--max-solutions N`, `--compact`, `--progress` / `--no-progress`.
+
+| File | Role |
+|---|---|
+| `wangtu.py` | Main solver — path enumeration, backtracking, dual-format output |
+| `example-input.txt` | Annotated 3×3 example puzzle with two kings |
+| `README.md` / `README_zh.md` | Bilingual documentation |
 
 ---
 
@@ -64,6 +80,7 @@ PNKU3-mid-hashbrown/
 │   ├── AGENT.md
 │   └── catalog.md
 ├── #pnku3-temp/            ← Temporary staging for unsorted projects
+│   └── wangtu-solver/       ← King-move logic puzzle solver
 ├── Logic Puzzle/
 │   └── 01Sudoku/           ← Possibility-matrix Sudoku solver
 └── Strategic Puzzle/
